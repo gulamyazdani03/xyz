@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Attic Bookstore | things with feelings</title>
+
+    <!-- title icon link-->
+    <link rel="icon" href="images/logo1-title.png" />
+
+    <!-- swiper icons link-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="\ProjectWebTech\css\all.min.css" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="\ProjectWebTech\css\style.css" />
+
+  </head>
+  <body>
+
+
+    <!-- header section starts  -->
+    <header class="header">
+
+      <div class="header-1">
+
+        <a href="images/logo1-title.png" class="logo"><i class="fas fa-book"></i> The Attic Bookstore</a>
+
+          <form class="search-form" action="">
+            <input type="search" name="" placeholder="search by title or author..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+          </form>
+
+          <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#favourite" class="fas fa-heart"></a>
+            <a href="#shopping-cart" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+          </div>
+
+      </div>
+
+      <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#authors">Authors</a>
+            <a href="#featured">Featured</a>
+            <a href="#arrivals">Arrivals</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+      </div>
+
+    </header>
+    <!-- header section ends -->
+
+
+    <!-- bottom navbar  -->
+    <nav class="bottom-navbar">
+      <a href="#home" class="fas fa-home"></a>
+      <a href="#author" class="fas fa-author"><i class="fas fa-pen-fancy"></i></a>
+      <a href="#featured" class="fas fa-list"></a>
+      <a href="#arrivals" class="fas fa-tags"></a>
+      <a href="#reviews" class="fas fa-comments"></a>
+      <a href="#blogs" class="fas fa-blog"></a>
+    </nav>
+
+
+    <!-- sign in form starts -->
+    <div class="login-form-container">
+
+      <div id="close-login-btn" class="fas fa-times"></div>
+
+      <form action="">
+          <h3>sign in</h3>
+          <span>username</span>
+          <input type="email" name="" class="box" placeholder="Enter your email" id="">
+          <span>password</span>
+          <input type="password" name="" class="box" placeholder="Enter your password" id="">
+          <div class="checkbox">
+              <input type="checkbox" name="" id="remember-me">
+              <label for="remember-me"> remember me</label>
+          </div>
+          <input type="submit" value="sign in" class="btn">
+          <p>forget password ? <a href="#click here">click here</a></p>
+          <p>don't have an account ? <a href="#">create one</a></p>
+      </form>
+
+    </div>
+    <!-- sign in form ends -->
+    
+    
+    <!-- home section starts  -->
+    <section style="background-image: url(images/banner-bg.jpg);" class="home" id="home">
+
+      <div class="row">
+
+          <div class="content">
+              <h3>upto 75% off</h3>
+              <h1 style="font-size: xx-large;">Your favourite bookish newsletter just got a makeover!</h1><br>
+              <h2>New Releases
+                  <li>The Almanack of Naval Ravikant</li>
+                  <li>The Magic Mindset</li>
+                  <li>Meet me in the middle</li>
+                  <li>The Alchemist</li>
+                  <li>Lahore</li>
+                  <li>Opium Inc.</li>                        
+                </h2>                               
+              
+              <a href="#shop-now" class="btn">shop now</a>
+          </div>
+
+          <div class="swiper books-slider">
+              <div class="swiper-wrapper">
+                  <a href="#themagicmindset" class="swiper-slide"><img src="images/book01.jfif" alt=""></a>
+                  <a href="#meetmeinthemiddle" class="swiper-slide"><img src="images/book02.jpg" alt=""></a>
+                  <a href="#thealchemist" class="swiper-slide"><img src="images/book03.jpg" alt=""></a>
+                  <a href="#lahore" class="swiper-slide"><img src="images/book04.jfif" alt=""></a>
+                  <a href="#opiuminc" class="swiper-slide"><img src="images/book05.jpg" alt=""></a>
+                  <a href="#thealmanackofnavalravikant" class="swiper-slide"><img src="images/book06.jpg" alt=""></a>
+              </div>
+
+              <br><br>
+              <img src="images/stand.png" class="stand" alt="">
+          </div>
+
+      </div>
+
+    </section>
+
+    <!-- home section ends  -->
+
+
+    <!-- icons section starts  -->
+
+    <section class="icons-container">
+
+      <div class="icons">
+          <i class="fas fa-shipping-fast"></i>
+          <div class="content">
+              <h3>free shipping</h3>
+              <p>order over $49</p>
+          </div>
+      </div>
+
+      <div class="icons">
+          <i class="fas fa-lock"></i>
+          <div class="content">
+              <h3>secure payment</h3>
+              <p>100 secure payment</p>
+          </div>
+      </div>
+
+      <div class="icons">
+          <i class="fas fa-redo-alt"></i>
+          <div class="content">
+              <h3>easy returns</h3>
+              <p>7 days returns</p>
+          </div>
+      </div>
+
+      <div class="icons">
+          <i class="fas fa-headset"></i>
+          <div class="content">
+              <h3>24/7 support</h3>
+              <p>call us anytime</p>
+          </div>
+      </div>
+
+    </section>
+
+    <!-- icons section ends -->
+
+
+    <!-- authors section starts -->
+    <section class="authors" id="authors">
+
+        <h1 class="heading"> <span style="background-color: lightskyblue;"> Authors </span> </h1>
+  
+        <div class="swiper authors-slider">
+  
+            <div class="swiper-wrapper">
+  
+                <div class="swiper-slide box">
+                    <img src="images/Ruskin-Bond01.jpg" alt="Ruskin Bond" style="display: block; margin-left: auto; margin-right: auto;">
+                    <h3 style="text-align: center;">Ruskin Bond</h3>
+                    <p>Ruskin Bond is one of India's most well-known children's writers. He received the Padma Shri in 1999 and the Padma Bhushan in 2014. He lives in Landour, Mussoorie. His first novel, The Room on the Roof, received the John Llewellyn Rhys Prize in 1957. He was awarded the Sahitya Akademi Award in 1992 for Our Trees Still Grow in Dehra, his novel in English.</p>
+                    <a href="#readmore" class="btn">read more</a>
+                </div>
+  
+                <div class="swiper-slide box">
+                    <img src="images/Anuja-Chauhan01.jpg" alt="Anuja Chauhan" style="display: block; margin-left: auto; margin-right: auto;">
+                    <h3 style="text-align: center;">Anuja Chauhan</h3>
+                    <p>Anuja Chauhan was an army brat, born in Meerut Cantonment and educated in Meerut, Delhi and Melbourne. She is the author of four bestselling novels (The Zoya Factor, Battle for Bittora, Those Pricey Thakur Girls, The House That BJ Built), two of which have been optioned by major Bollywood studios and one of which has been made into a prime-time daily Hindi serial on &TV.</p>
+                    <a href="#readmore" class="btn">read more</a>
+                </div>
+  
+                <div class="swiper-slide box">
+                    <img src="images/Ravinder-Singh01.jpg" alt="Ravinder Singh" style="display: block; margin-left: auto; margin-right: auto;">
+                    <h3 style="text-align: center;">Ravinder Singh</h3>
+                    <p>Ravinder Singh is the bestselling author of six novels and two crowd-sourced anthologies. His books have sold over 3.5 million copies to date. His eight-year-long IT career started with Infosys and ended in Microsoft. Ravinder has also founded and runs a publishing venture called Black Ink, where he publishes and mentors debut authors.</p>
+                    <a href="#readmore" class="btn">read more</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Paulo-Coelho01.jpg" alt="Paulo Coelho" style="display: block; margin-left: auto; margin-right: auto;">
+                    <h3 style="text-align: center;">Paulo Coelho</h3>
+                    <p>Paulo Coelho was born in Brazil and has become one of the most widely read and loved authors in the world. Especially renowned of The Alchemist and Eleven Minutes. The recipient of numerous prestigious international awards, amongst them the Crystal Award by the World Economic Forum and France's Legion d'Honneur, Paulo Coelho was inducted into the Brazilian Academy of Letters in 2002. He writes a weekly column syndicated throughout the world.</p>
+                    <a href="#readmore" class="btn">read more</a>
+                </div>
+  
+                <div class="swiper-slide box">
+                    <img src="images/Chetan-Bhagat01.jpg" alt="Chetan Bhagat" style="display: block; margin-left: auto; margin-right: auto;">
+                    <h3 style="text-align: center;">Chetan Bhagat</h3>
+                    <p>Chetan Bhagat (born 22 April 1974) is an Indian author and columnist. He was included in Time magazine's list of World's 100 Most Influential People in 2010. He started his career as an investment banker but left it after a few years to pursue writing. He has written nine novels and three non-fiction books. His first novel, Five Point Someone, was published in 2004. His novels have been listed as bestsellers.</p>
+                    <a href="#readmore" class="btn">read more</a>
+                </div>
+  
+                <div class="swiper-slide box">
+                    <img src="images/Arpit-Vageria01.jpg" alt="Arpit Vageria" style="display: block; margin-left: auto; margin-right: auto;">
+                    <h3 style="text-align: center;">Arpit Vageria</h3>
+                    <p>Arpit Vageria writes scripts for the Indian television industry and has written stories and dialogues for many fiction and non- fiction television series and award functions. Hailing from Indore currently lives in Mumbai. His best novels are: Be my perfect ending, The Girl Next Door, You are my reason to smile, I still think about you, Love Knows No LOC.</p>
+                    <a href="#readmore" class="btn">read more</a>
+              </div>
+  
+            </div>
+  
+        </div>
+        
+      </section>    
+
+    <!-- authors section ends -->
+
+
+    <!-- featured section starts  -->
+    <section class="featured" id="featured">
+
+      <h1 class="heading"> <span style="background-color: lightskyblue;">featured books</span> </h1>
+
+      <div class="swiper featured-slider">
+
+          <div class="swiper-wrapper">
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#search" class="fas fa-search"></a>
+                      <a href="#favourite" class="fas fa-heart"></a>
+                      <a href="#seen" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="images/theBlueUmbrella.jpg" alt="The Blue Umbrella">
+                  </div>
+                  <div class="content">
+                      <h3>| The Blue Umbrella | Ruskin Bond</h3>
+                      <div class="price">$13.91 <span>$16.74</span></div>
+                      <a href="#addtocart" class="btn">add to cart</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#search" class="fas fa-search"></a>
+                      <a href="#favourite" class="fas fa-heart"></a>
+                      <a href="#seen" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="images/oneNight@callcenter.jpg" alt="One Night @ call center">
+                  </div>
+                  <div class="content">
+                      <h3>| One Night @ call center | Chetan Bhagat</h3>
+                      <div class="price">$13.26 <span>$15.49</span></div>
+                      <a href="#addtocart" class="btn">add to cart</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#search" class="fas fa-search"></a>
+                      <a href="#favourite" class="fas fa-heart"></a>
+                      <a href="#seen" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="images/thinkLikeaMonk.jfif" alt="Think Like a Monk">
+                  </div>
+                  <div class="content">
+                      <h3>| Think Like a Monk | Jay Shetty</h3>
+                      <div class="price">$17.78 <span>$21.29</span></div>
+                      <a href="#addtocart" class="btn">add to cart</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#search" class="fas fa-search"></a>
+                      <a href="#favourite" class="fas fa-heart"></a>
+                      <a href="#seen" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="images/writeMeaLoveStory.jpg" alt="Write me a love story">
+                  </div>
+                  <div class="content">
+                      <h3>| Write me a love story | Ravinder Singh</h3>
+                      <div class="price">$12.49 <span>$14.72</span></div>
+                      <a href="#addtocart" class="btn">add to cart</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#search" class="fas fa-search"></a>
+                      <a href="#favourite" class="fas fa-heart"></a>
+                      <a href="#seen" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="images/wishIcouldtellyou.jpg" alt="Wish I could tell you">
+                  </div>
+                  <div class="content">
+                      <h3>| Wish I could tell you | Durjoy Datta</h3>
+                      <div class="price">$12.10 <span>$15.99</span></div>
+                      <a href="#addtocart" class="btn">add to cart</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#search" class="fas fa-search"></a>
+                      <a href="#favourite" class="fas fa-heart"></a>
+                      <a href="#seen" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="images/turningPoints.jpg" alt="Turning Points">
+                  </div>
+                  <div class="content">
+                      <h3>| Turning Points | A.P.J Abdul Kalam</h3>
+                      <div class="price">$22.23 <span>$24.49</span></div>
+                      <a href="#addtocart" class="btn">add to cart</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#search" class="fas fa-search"></a>
+                      <a href="#favourite" class="fas fa-heart"></a>
+                      <a href="#seen" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="images/theSecret.jpg" alt="The Secret">
+                  </div>
+                  <div class="content">
+                      <h3>| The Secret | Rhonda Byrne</h3>
+                      <div class="price">$17.61 <span>$20.99</span></div>
+                      <a href="#addtocart" class="btn">add to cart</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#search" class="fas fa-search"></a>
+                      <a href="#favourite" class="fas fa-heart"></a>
+                      <a href="#seen" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="images/harryPotter.jpg" alt="Harry Potter and The Goblet of Fire">
+                  </div>
+                  <div class="content">
+                      <h3>| Harry Potter and The Goblet of Fire | J.K. Rowling</h3>
+                      <div class="price">$20.89 <span>$24.49</span></div>
+                      <a href="#addtocart" class="btn">add to cart</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#search" class="fas fa-search"></a>
+                      <a href="#favourite" class="fas fa-heart"></a>
+                      <a href="#seen" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="images/everythingIsFucked.jpg" alt="Everything is Fucked">
+                  </div>
+                  <div class="content">
+                      <h3>| Everything is Fucked | Mark Manson</h3>
+                      <div class="price">$14.49 <span>$18.49</span></div>
+                      <a href="#addtocart" class="btn">add to cart</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="icons">
+                      <a href="#search" class="fas fa-search"></a>
+                      <a href="#favourite" class="fas fa-heart"></a>
+                      <a href="#seen" class="fas fa-eye"></a>
+                  </div>
+                  <div class="image">
+                      <img src="images/theOtherSideofMidnight.jpg" alt="The Other Side of Midnight">
+                  </div>
+                  <div class="content">
+                      <h3>| The Other Side of Midnight | Sidney Sheldon</h3>
+                      <div class="price">$13.36 <span>$16.99</span></div>
+                      <a href="#addtocart" class="btn">add to cart</a>
+                  </div>
+              </div>
+
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+
+      </div>
+
+    </section>
+
+    <!-- featured section ends -->
+
+
+    <!-- newsletter section starts -->
+    <section class="newsletter">
+
+      <form action="">
+          <h3>subscribe for latest updates</h3>
+          <input type="email" name="" placeholder="enter your email" id="" class="box">
+          <input type="submit" value="subscribe" class="btn">
+      </form>
+
+    </section>
+
+    <!-- newsletter section ends -->
+
+
+    <!-- arrivals section starts  -->
+    <section class="arrivals" id="arrivals">
+
+      <h1 class="heading"> <span style="background-color: lightskyblue;">new arrivals</span> </h1>
+
+      <div class="swiper arrivals-slider">
+
+          <div class="swiper-wrapper">
+
+              <a href="#" class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/berkshire01.jpg" alt="Berkshire Hathaway">
+                  </div>
+                  <div class="content">
+                      <h3>| Berkshire Hathaway | Adam J. Mead</h3>
+                      <div class="price">$42.99 <span>$48.20</span></div>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                  </div>
+              </a>
+
+              <a href="#" class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/thecowardandtheSword02.jpg" alt="The Coward and the Sword">
+                  </div>
+                  <div class="content">
+                      <h3>| The Coward and the Sword | Jugal Hansraj</h3>
+                      <div class="price">$16.99 <span>$20.99</span></div>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+              </a>
+
+              <a href="#" class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/anxiety03.jpg" alt="Anxiety">
+                  </div>
+                  <div class="content">
+                      <h3>| Anxiety | Sonali Gupta</h3>
+                      <div class="price">$15.38 <span>$19.99</span></div>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                  </div>
+              </a>
+
+              <a href="#" class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/foodMatters04.jpg" alt="Food Matters">
+                  </div>
+                  <div class="content">
+                      <h3>| Food Matters | Mark Bittman</h3>
+                      <div class="price">$8.75 <span>$11.99</span></div>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                  </div>
+              </a>
+
+              <a href="#" class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/theGreatestSecret05.jpg" alt="The Greatest Secret">
+                  </div>
+                  <div class="content">
+                      <h3>| The Greatest Secret | Rhonda Byrne</h3>
+                      <div class="price">$16.06 <span>$19.49</span></div>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                  </div>
+              </a>
+
+          </div>
+
+      </div>
+
+      <div class="swiper arrivals-slider">
+
+          <div class="swiper-wrapper">
+
+              <a href="#" class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/tenTimes06.jpg" alt="Ten Times Happier">
+                  </div>
+                  <div class="content">
+                      <h3>| Ten Times Happier | Owen O'Kane</h3>
+                      <div class="price">$15.38 <span>$16.79</span></div>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                  </div>
+              </a>
+
+              <a href="#" class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/selfConfidence07.jpg" alt="Self Confidence">
+                  </div>
+                  <div class="content">
+                      <h3>| Self Confidence | Charles Pepin</h3>
+                      <div class="price">$24.29 <span>$26.99</span></div>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+              </a>
+
+              <a href="#" class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/catchRelease08.jpg" alt="Catch and Release">
+                  </div>
+                  <div class="content">
+                      <h3>| Catch and Release | Ritvik Rastogi</h3>
+                      <div class="price">$6.99 <span>$9.49</span></div>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+              </a>
+
+              <a href="#" class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/stoned09.jpg" alt="Stoned Shamed Depressed">
+                  </div>
+                  <div class="content">
+                      <h3>| Stoned Shamed Depressed | Jyotsna Mohan Bhargava</h3>
+                      <div class="price">$7.49 <span>$10.99</span></div>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+              </a>
+
+              <a href="#" class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/shoeDog10.jpg" alt="Shoe Dog">
+                  </div>
+                  <div class="content">
+                      <h3>| Shoe Dog | Phil Knight</h3>
+                      <div class="price">$16.79 <span>$17.49</span></div>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                  </div>
+              </a>
+
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+
+      </div>
+
+    </section>
+
+    <!-- arrivals section ends -->
+
+
+    <!-- deal section starts  -->
+    <section class="deal">
+
+      <div class="content">
+          <h3>deal of the day</h3>
+          <h1>upto 50% off</h1>
+          <p>IF YOU CAN DREAM IT, YOU CAN DO IT!
+
+            Do you dread going to work? Do you feel tired, unhappy, weighed down? Have you given up on your dreams? The road to a happier, more successful life starts with your attitude--and your attitude is within your control. Whether your outlook is negative, positive or somewhere in between, Jeff Keller, motivational speaker and coach, will show you how to take control and unleash your hidden potential through three powerful steps:--THINK! Success begins in the mind. The power of attitude can change your destiny.--SPEAK! Watch your words. How you speak can propel you towards your goals.--ACT! Don't sit back. Take active steps to turn your dreams into reality. All you need is this step-by-step programme to change your attitude and your life!</p>
+          <a href="#shopnow" class="btn">shop now</a>
+      </div>
+
+      <div class="image">
+          <img src="images/attitudeIsEverything.jpg" alt="Attitude is Everything">
+      </div>
+
+    </section>
+
+    <!-- deal section ends -->
+
+
+    <!-- reviews section starts  -->
+    <section class="reviews" id="reviews">
+
+      <h1 class="heading"> <span style="background-color: lightskyblue;">client's reviews</span> </h1>
+
+      <div class="swiper reviews-slider">
+
+          <div class="swiper-wrapper">
+
+              <div class="swiper-slide box">
+                  <img src="images/review01.jfif" alt="Patricia" style="display: block; margin-left: auto; margin-right: auto;">
+                  <h3 style="text-align: center;">Patricia</h3>
+                    <div class="stars" style="text-align: center;">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                  <p>Really interesting and informative. I wasn't sure about parts of the book being written in a fictional style when I started it as I thought it might detract from the authenticity of the events and be neither one thing nor the other. In fact though, it worked remarkably well bringing colour and depth to the bare bones of these real life stories.</p>
+                  <a href="#readmore" class="btn">read more</a>    
+              </div>
+
+              <div class="swiper-slide box">
+                  <img src="images/review02.jpg" alt="Khalil Gibran" style="display: block; margin-left: auto; margin-right: auto;">
+                  <h3 style="text-align: center;">Khalil Gibran</h3>
+                    <div class="stars" style="text-align: center;">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  <p>I am glad to read 'Anxiety' and supervise to spread more awareness through my learnings. It describes anxiety in the most exclusive way and has put down the causes behind this disorder. Book also gives great insights regarding anxiety manifestation and the emotional and physical symptoms associated with it.</p>
+                  <a href="#readmore" class="btn">read more</a>                  
+              </div>
+
+              <div class="swiper-slide box">
+                  <img src="images/review03.jfif" alt="Jennifer White" style="display: block; margin-left: auto; margin-right: auto;">
+                  <h3 style="text-align: center;">Jennifer White</h3>
+                    <div class="stars" style="text-align: center;">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                  <p>Food Matters is a book on how diet plays a important part in your daily lifestyle and how it's effect our health and risk prone for Cancer. It also contains what to eat and how your body react to it, types of cancer and what's beneficial if you are at risk of getting cancer. Book also has shared the diagram on different types of cancer and their effects on the body.</p>
+                  <a href="#readmore" class="btn">read more</a>                  
+              </div>
+
+              <div class="swiper-slide box">
+                  <img src="images/review04.jpg" alt="Richard Dwane" style="display: block; margin-left: auto; margin-right: auto;">
+                  <h3 style="text-align: center;">Richard Dwane</h3>
+                    <div class="stars" style="text-align: center;">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  <p>Indeed, "If it is to be, it is up to me". In the world bound by laws of nature, staying afloat defying gravity is a challenge. By defying gravity I mean, the many things that pull us down from soaring high or for that matter "grounded". Books like these ring a bell by giving thoughtful insights, stressing or positivity and optimism despite setbacks.</p>
+                  <a href="#readmore" class="btn">read more</a>                  
+              </div>
+
+              <div class="swiper-slide box">
+                  <img src="images/review05.jpg" alt="Jessica" style="display: block; margin-left: auto; margin-right: auto;">
+                  <h3 style="text-align: center;">Jessica</h3>
+                    <div class="stars" style="text-align: center;">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                  <p>This is probably the most interesting book I've read so far, the writing so the book is amazing and can be easily understand. The story is about a boy from Andalusia and his adventures through African desert to find treasure in Pyramids of Egypt. One can easily relate with the story because we all have our own goals and this book will teach you that no matter how many obstacles come in your way you should never give up.</p>
+                  <a href="#readmore" class="btn">read more</a>
+              </div>
+
+              <div class="swiper-slide box">
+                  <img src="images/review06.jpg" alt="Billy Brown" style="display: block; margin-left: auto; margin-right: auto;">
+                  <h3 style="text-align: center;">Billy Brown</h3>
+                    <div class="stars" style="text-align: center;">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  <p>The Blue Umbrella is a novel by Ruskin Bond wherein he portrays the beautiful story of an ordinary village girl, Binya and her love towards the blue umbrella which she got in exchange of the price of her lucky charm, the leopard claw necklace. But atlast she ended up giving it to someone experiencing the truth that there is more joy in giving, than owing something.</p>
+                  <a href="#readmore" class="btn">read more</a>        
+              </div>
+
+              <div class="swiper-slide box">
+                <img src="images/review07.jpeg" alt="Sarah Johnson" style="display: block; margin-left: auto; margin-right: auto;">
+                <h3 style="text-align: center;">Sarah Johnson</h3>
+                  <div class="stars" style="text-align: center;">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                <p>After reading this book I regret  why didn't I get it earlier. Much inspirational book. It is so simple and concise that I have become the fan of the writer. There are 101 chapters in the book each one is better than the other. I felt while reading the book as if writer was talking to me telling me to change my life for the better. The chapters are not only to read but only to implement in your life. Go get it...!!</p>
+                <a href="#readmore" class="btn">read more</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/review08.jpg" alt="Shawn Mendes" style="display: block; margin-left: auto; margin-right: auto;">
+                <h3 style="text-align: center;">Shawn Mendes</h3>
+                  <div class="stars" style="text-align: center;">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                <p>I did complete reading the book, and I must say it was quite different genre book that you explored...how you played different time frames and jot the pieces together. Really moves me. It's true that I was quite confused in the middle but things slowly started setting in once I kept reading more. It was a pleasurable read and hope you get more readers soon...Thank you and best of luck!!</p>
+                <a href="#readmore" class="btn">read more</a>
+            </div>
+
+          </div>
+
+      </div>
+      
+    </section>
+
+    <!-- reviews section ends -->
+
+
+    <!-- blogs section starts  -->
+    <section class="blogs" id="blogs">
+
+      <h1 class="heading"> <span style="background-color: lightskyblue;">our blogs</span> </h1>
+
+      <div class="swiper blogs-slider">
+
+          <div class="swiper-wrapper">
+
+              <div class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/blog-06.jfif" alt="Image">
+                  </div>
+                  <div class="content">
+                      <h3 style="text-align: center;">Diary of angry young man</h3>
+                      <p style="font-weight: bold;">Every change starts from us. If we want the change, we need to make it happen. This is a story that shows us how a boy with mediocre thoughts and living thought of doing something for a certain section of our society.</p>
+                      <a href="#readmore" class="btn">read more</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/blog-03.jpg" alt="Image">
+                  </div>
+                  <div class="content">
+                      <h3 style="text-align: center;">Neck-Deep!</h3>
+                      <p style="font-weight: bold;">Set in 2015, Chennai, this book explores the struggles of people who witnessed floods.The book has drawn inspiration from real-life events and people who had first-hand experience with it. The author has brilliantly woven fiction around it.</p>
+                      <a href="#readmore" class="btn">read more</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/blog-05.jfif" alt="Image">
+                  </div>
+                  <div class="content">
+                      <h3 style="text-align: center;">The Legend of Kuldhara</h3>
+                      <p style="font-weight: bold;">This is a story of loss, belonging, loving passionately and fighting for your good. For me, this story was only (though there are other major characters too) about Parvati and Pari. Two women who are strangers to each other, who could never imagine how destiny would bring them together.</p>
+                      <a href="#readmore" class="btn">read more</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/blog-02.jpg" alt="Image">
+                  </div>
+                  <div class="content">
+                      <h3 style="text-align: center;">The Artists</h3>
+                      <p style="font-weight: bold;">The words flow effortlessly and they provoke you to think deeply. The inner conflict, challenges and struggles are portrayed in the book, exactly as they are, which is highly appreciated. The book is raw and often touched sensitive corners of my heart so this would be best for anyone who is interested in reading about artists and what all they endure.</p>
+                      <a href="#readmore" class="btn">read more</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <div class="image">
+                      <img src="images/blog-04.jpg" alt="Image">
+                  </div>
+                  <div class="content">
+                      <h3 style="text-align: center;">Life & its Polka Dots</h3>
+                      <p style="font-weight: bold;">Our mind can't filter out the thoughts unless we do it. What enters inside our mind, stays.We have to be careful of the thoughts we are allowing ourselves to keep. Years pass by and human beings don't realize that forgiveness is not for the person who is at fault but it is for us. It is meant for us so that we can learn from it and avoid it happening from the next time.</p>
+                      <a href="#readmore" class="btn">read more</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                <div class="image">
+                    <img src="images/blog-01.jpg" alt="Image">
+                </div>
+                <div class="content">
+                    <h3 style="text-align: center;">The Earthspinner</h3>
+                    <p style="font-weight: bold;">This was my first time to read Roy's book. She has got a captivating knack to enchant her readers with the simplest of things by turning them into something grand. The story is narrated by Sara who used to know Elango since her childhood as Elango, alongside being a potter, used to drive autorickshaw to take girls to the school.</p>
+                    <a href="#readmore" class="btn">read more</a>
+                </div>
+            </div>
+
+          </div>
+
+      </div>
+
+    </section>
+
+    <!-- blogs section ends -->
+
+
+    <!-- footer section starts  -->
+    <section class="footer">
+
+      <div class="box-container">
+
+          <div class="box">
+              <h3>our locations</h3>
+              <a href="images/worldmap.png"> <i class="fas fa-map-marker-alt"></i> India </a>
+              <a href="images/worldmap.png"> <i class="fas fa-map-marker-alt"></i> USA </a>
+              <a href="images/worldmap.png"> <i class="fas fa-map-marker-alt"></i> Russia </a>
+              <a href="images/worldmap.png"> <i class="fas fa-map-marker-alt"></i> France </a>
+              <a href="images/worldmap.png"> <i class="fas fa-map-marker-alt"></i> England </a>
+              <a href="images/worldmap.png"> <i class="fas fa-map-marker-alt"></i> UAE </a>
+          </div>
+
+          <div class="box">
+              <h3>quick links</h3>
+              <a href="#home"> <i class="fas fa-arrow-right"></i> Home </a>
+              <a href="#authors"> <i class="fas fa-arrow-right"></i> Authors </a>
+              <a href="#featured"> <i class="fas fa-arrow-right"></i> Featured </a>
+              <a href="#arrivals"> <i class="fas fa-arrow-right"></i> Arrivals </a>
+              <a href="#reviews"> <i class="fas fa-arrow-right"></i> Reviews </a>
+              <a href="#blogs"> <i class="fas fa-arrow-right"></i> Blogs </a>
+          </div>
+
+          <div class="box">
+              <h3>extra links</h3>
+              <a href="#accountinfo"> <i class="fas fa-arrow-right"></i> Account info </a>
+              <a href="#ordereditems"> <i class="fas fa-arrow-right"></i> Ordered items </a>
+              <a href="#privacypolicy"> <i class="fas fa-arrow-right"></i> Privacy policy </a>
+              <a href="#payment"> <i class="fas fa-arrow-right"></i> Payment method </a>
+              <a href="#ourservices"> <i class="fas fa-arrow-right"></i> Our serivces </a>
+          </div>
+
+          <div class="box">
+              <h3>contact info</h3>
+              <a href="tel:+91 7317208121"> <i class="fas fa-phone"></i> +91 7317208121 </a>
+              <a href="tel:+123-456-789"> <i class="fas fa-phone"></i> +123-456-789 </a>
+              <a href="mailto:yazdanigulam@gmail.com?subject=Order now%26body=message" target="_blank"> <i class="fas fa-envelope"></i>DigiCreations@gmail.com</a>
+              <img src="images/worldmap.png" class="map" alt="World Map">
+          </div>
+          
+      </div>
+
+      <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+          <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="credit"> Copyright </i><i class="far fa-copyright"></i>2021-2022<span>DigiCreations - Build your Future</span> | all rights reserved.</div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+    <!-- loader image starts -->
+    <div class="loader-container">
+      <img src="images/loader04.gif" alt="LoaderImage">
+    </div>
+    <!-- loader image ends -->
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
